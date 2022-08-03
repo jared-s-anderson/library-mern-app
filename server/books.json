@@ -1,0 +1,17 @@
+{
+  "book1": {
+    "title": "Eragon",
+    "genre": "Fantasy",
+    "author": "Christopher Paolini"
+  },
+  "book2": {
+    "title": "The Maze Runner",
+    "genre": "Fantasy",
+    "author": "James Dashner"
+  },
+  "book3": {
+    "title": "Midnight for Charlie Bone",
+    "genre": "Fantasy",
+    "author": "Jenny Nimmo"
+  }
+}
