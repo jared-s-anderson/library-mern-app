@@ -1,0 +1,28 @@
+###
+GET http://localhost:3000/books
+
+###
+GET http://localhost:3000/books/62eabdbcba8d77f483a5cc74
+
+###
+POST http://localhost:3000/books HTTP/1.1
+Content-Type: application/json
+
+{
+    "title": "title",
+    "genre": "genre",
+    "author": "author"
+}
+
+###
+PUT http://localhost:3000/books/62eaf746d41d935f419d1760 HTTP/1.1
+Content-Type: application/json
+
+{
+    "title": "best title",
+    "genre": "best genre",
+    "author": "best author"
+}
+
+###
+DELETE http://localhost:3000/books/62eaf746d41d935f419d1760 HTTP/1.1
